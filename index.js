@@ -29,5 +29,5 @@ app.use("/api/makes", makes)
 app.use("/api/types", types)
 app.use("/api/orders", orders)
 
-const port = 3020
+const port = process.en.PORT || 3020
 app.listen(port, () => console.log("sever is listing", port))
