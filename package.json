@@ -22,6 +22,6 @@
     "pdf-creator-node": "^2.2.4"
   },
   "engines": {
-    "node":"16.x"
+    "node": "16.x"
   }
 }
