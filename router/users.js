@@ -32,15 +32,15 @@ router.post("/signup", validateBody(signupJoi), async (req, res) => {
       role: "User",
     })
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      port: 587,
-      secure: false,
-      auth: {
-        user: "test2000test1420@gmail.com",
-        pass: "lama1420",
-      },
-    })
+    // const transporter = nodemailer.createTransport({
+    //   service: "gmail",
+    //   port: 587,
+    //   secure: false,
+    //   auth: {
+    //     user: "test2000test1420@gmail.com",
+    //     pass: "lama1420",
+    //   },
+    // })
 
     await user.save()
 
