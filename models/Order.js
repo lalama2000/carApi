@@ -6,7 +6,7 @@ const orderSchema = new mongoose.Schema(
     user: String,
   },
   { timestamps: true }
-  // creates a createdAt and updatedAt field while your inserting documents in the document itself
+//displaying a datetime in the local timezone.
 )
 
 const orderJoi = Joi.object({
