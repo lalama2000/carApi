@@ -5,7 +5,8 @@ const orderSchema = new mongoose.Schema(
     car: String,
     user: String,
   },
-  { timestamps: true }// creates a createdAt and updatedAt field while your inserting documents in the document itself
+  { timestamps: true }
+  // creates a createdAt and updatedAt field while your inserting documents in the document itself
 )
 
 const orderJoi = Joi.object({
